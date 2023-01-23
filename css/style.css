@@ -1,0 +1,128 @@
+h1,
+h2,
+h3,
+p {
+    color: #1C315E;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Crimson Text', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+/*presentación*/
+
+#contenedorsuperior {
+    background-color: #227C70;
+    padding: 70px 30px;
+}
+
+.presentación {
+    width: 60%;
+    margin: 60px auto;
+
+}
+
+.ppal1 {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.ppal2 {
+    float: right;
+    margin-left: 30px;
+    width: 200px;
+    
+}
+
+.ppal1-text {
+    color: #88A47C;
+    line-height: 1;
+    font-size: 2.3rem;
+}
+
+.ppal2-text {
+    color: #E6E2C3;
+    line-height: 1.8;
+    margin-bottom: 20%;
+}
+
+/*Proyectos*/
+
+#proyectos {
+    text-align: center;
+    background-color: #88A47C;
+    color: #fff;
+}
+
+.introducción {
+    padding: 6%;
+    margin: auto 13%;
+    line-height: 1.8;
+}
+
+.carousel-item {
+    padding: 7% 16%;
+}
+
+.proyectos-text {
+    text-align: center;
+    color: #1C315E;
+    text-decoration: none;
+    margin: 2% 1%;
+    font-size: 2.3rem;
+}
+
+.proyectos-image {
+
+    width: 40%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+/*Pie de pagina*/
+
+#contenedorinferior {
+
+    background-color: #E6E2C3;
+    text-align: center;
+    padding: 7% 7%;
+
+}
+
+.mensaje-contacto {
+    margin: auto 13%;
+    line-height: 1.8;
+    margin-bottom: 9%;
+}
+
+.formulario {
+    margin: auto 13%;
+}
+
+.form-control {
+    margin: 1.5% auto;
+}
+
+.links {
+    margin-top: 8%;
+}
+
+.footer-link {
+    color: #1C315E;
+    text-decoration: none;
+    margin: 2% 1%;
+    font-size: 1.2rem;
+}
+
+.footer-link:hover {
+    color: #88A47C;
+}
