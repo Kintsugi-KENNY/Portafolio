@@ -143,18 +143,20 @@
     <form>
       <div class="form-row">
         <div class="col">
-          <input type="text" class="form-control" placeholder="Nombre">
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
         </div>
+
         <div class="col">
-          <input type="text" class="form-control" placeholder="Correo Electronico">
+          <input type="text" class="form-control" id="correo" placeholder="Correo Electronico">
         </div>
       </div>
+
       <div class="form-group">
         <label for="exampleFormControlTextarea1">
           <h3>Mensaje</h3>
         </label>
         <textarea class="form-control" id="mensaje" rows="3"></textarea>
-        <button type="button" class="boton btn btn-outline-secondary">Enviar</button>
+       <input type="button" onclick="enviar ()" value="Enviar"> 
         
       </div>
     </form>
@@ -169,7 +171,7 @@
   </div>
 
 
-
+<script src="index.js"></script>
 
 </body>
 
