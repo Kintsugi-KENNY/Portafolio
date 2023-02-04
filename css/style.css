@@ -71,7 +71,7 @@ p {
 .carousel-item {
     padding: 7% 16%;
 }
-
+ 
 .proyectos-text {
     text-align: center;
     color: #1C315E;
@@ -83,6 +83,7 @@ p {
 .proyectos-image {
 
     width: 40%;
+    height: 50%;
     border-radius: 100%;
     margin: 20px;
 
