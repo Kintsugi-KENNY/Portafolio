@@ -16,6 +16,7 @@ p {
     font-size: 1.3rem;
 }
 
+
 /*presentación*/
 
 #contenedorsuperior {
@@ -33,13 +34,14 @@ p {
     float: left;
     margin-right: 20px;
     width: 200px;
+    border: #fff solid 4px;
 }
 
 .ppal2 {
     float: right;
     margin-left: 30px;
-    width: 200px;
-    
+    width: 250px;
+    border: #fff solid 4px;
 }
 
 .ppal1-text {
@@ -53,6 +55,29 @@ p {
     line-height: 1.8;
     margin-bottom: 20%;
 }
+
+.separador-cv {
+    border: dotted #fff;
+    border-bottom: none;
+    width: 15%;
+    margin: 50px auto;
+    border-width: 9px;
+}
+
+.cv {
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    color: #E6E2C3;
+    font-size: 2.3rem;
+justify-content: center;
+display: flex;
+margin-top: 10%;
+}
+
+.cv:hover {
+    color: #88A47C;
+}
+
 
 /*Proyectos*/
 
@@ -82,7 +107,7 @@ p {
 
 .proyectos-image {
 
-    width: 40%;
+    width: 50%;
     height: 50%;
     border-radius: 100%;
     margin: 20px;
